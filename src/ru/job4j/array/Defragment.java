@@ -1,6 +1,8 @@
 package ru.job4j.array;
 
-@SuppressWarnings("checkstyle:EmptyLineSeparator")
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Defragment {
     public static String[] compress(String[] array) {
         for (int index = 0; index < array.length; index++) {
