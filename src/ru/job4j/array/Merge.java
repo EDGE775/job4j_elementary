@@ -6,7 +6,6 @@ public class Merge {
         int count = 0; // Счётчик для результирующего массива
         int l = 0; // Счётчик для первого массива
         int r = 0; // Счётчик для второго массива
-
         while (count < rsl.length) {
             if (l > left.length - 1) {
                 rsl[count++] = right[r++];

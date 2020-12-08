@@ -12,6 +12,9 @@ public class FindLoop {
         return rst;
     }
 
+    /**
+     * Этот метод нужен, чтобы получить индекс элемента, полученного из метода MinDiapason.findMin
+     */
     public static int indexOf(int[] data, int el, int start, int finish) {
         int rst = -1;
         for (int i = start; i <= finish; i++) {
