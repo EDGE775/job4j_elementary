@@ -8,13 +8,11 @@ public class Max {
     }
 
     public static int max(int first, int second, int third) {
-        int temp = max(first, second);
-        return temp >= third ? temp : third;
+        return max(max(first, second), third);
     }
 
     public static int max(int first, int second, int third, int fourth) {
-        int temp = max(first, second, third);
-        return temp >= fourth ? temp : fourth;
+        return max(max(first, second, third), fourth);
     }
 
     public static void main(String[] args) {
